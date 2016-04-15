@@ -1,0 +1,28 @@
+
+.popupMain{
+  position: fixed;
+  border: 2px solid #000;
+  border-radius: 9px;
+  height: 280px;
+  width: 470px;
+  background-color: rgba(0, 0, 0, 0.4);
+  bottom: 50%;
+  right: 10%;
+  /*padding: 10px;*/
+}
+
+button:focus {
+  outline: 0;
+}
+
+.closePopup{
+  position: absolute;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  height: 30px;
+  width: 30px;
+  right: -10px;
+  top: -10px;
+  border-radius: 50%;
+}
