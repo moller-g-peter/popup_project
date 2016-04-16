@@ -1,0 +1,190 @@
+body{
+  background-color: grey;
+  width: 100vw;
+  height: 100vh;
+}
+/*--------------------------------------------------*/
+
+/* POPUP - MAIN BOX */
+
+.popupMain{
+  position: relative;
+  border-radius: 7px;
+  background-color: #fff;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+  -webkit-box-shadow: 12px 14px 19px -1px rgba(0,0,0,0.38);
+  -moz-box-shadow: 12px 14px 19px -1px rgba(0,0,0,0.38);
+  box-shadow: 12px 14px 19px -1px rgba(0,0,0,0.38);
+}
+/*--------------------------------------------------*/
+
+/* POPUP - MAIN TEXT FIELD */
+
+.popupMainText{
+  /*position: absolute;*/
+  border: 1px solid #000;
+  width: 85%;
+  /*left: 10%;*/
+  margin: auto;
+  /*text-align: center;*/
+}
+.popupMainText span{
+  font-family: helvetica;
+  font-weight: bold;
+}
+/*--------------------------------------------------*/
+
+/* POPUP - CLOSE (X) BUTTON */
+
+button:focus {
+  outline: 0;
+}
+.closePopup{
+  position: absolute;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  height: 30px;
+  width: 30px;
+  right: -10px;
+  top: -10px;
+  border-radius: 50%;
+  border-color: #eee;
+}
+.closePopup:hover{
+  cursor: pointer;
+  background-color: #eee;
+}
+/*--------------------------------------------------*/
+
+/* POPUP - UPPER CORNER RIBBON */
+
+.popupRibbon{
+  width: 101px; /* original width: 70px; */
+  height: 70px; /* original height: 70px; */
+  font-weight: 700;
+}
+.ribbon {
+  position: absolute;
+  left: -5px; /* original left: -5px; */
+  top: -5px; /* original top: -5px; */
+  z-index: 1;
+  overflow: hidden;
+  width: 101px; /* original width: 70px; */
+  height: 94px; /* original height: 70px; */
+  text-align: right;
+}
+.ribbon span {
+  font-size: 20px; /* font-size: 14px; */
+  line-height: 30px; /* line-height: 20px; */
+  width: 125px; /* width: 100px; */
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  display: block;
+  background: #D80D0D;
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; 
+  left: -29px; /* original left: -21px; */
+}
+.ribbon span::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #8F5408;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #8F5408;
+}
+.ribbon span::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #8F5408;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #8F5408;
+}
+/*--------------------------------------------------*/
+
+/* POPUP - LOWER CONFIRM BUTTON */
+
+.buttonDiv{
+  display: block;
+  padding: 10px 0;
+}
+.popupButton {
+  border-top: 1px solid #3b3b3b;
+  background: #696969;
+  background: -webkit-gradient(linear, left top, left bottom, from(#262626), to(#696969));
+  background: -webkit-linear-gradient(top, #262626, #696969);
+  background: -moz-linear-gradient(top, #262626, #696969);
+  background: -ms-linear-gradient(top, #262626, #696969);
+  background: -o-linear-gradient(top, #262626, #696969);
+  padding: 11px 22px 5px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+  -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+  box-shadow: rgba(0,0,0,1) 0 1px 0;
+  text-shadow: rgba(0,0,0,.4) 0 1px 0;
+  color: white;
+  font-size: 20px;
+  font-family: Georgia, serif;
+  text-decoration: none;
+  vertical-align: middle;
+  }
+.popupButton:hover {
+  border-top-color: #3d3d3d;
+  background: #3d3d3d;
+  color: #fff;
+  }
+.popupButton:active {
+  border-top-color: #000;
+  background: #000;
+  }
+  .popupButton span{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  }
+/*--------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
