@@ -21,6 +21,15 @@ body{
 }
 /*--------------------------------------------------*/
 
+/* POPUP - MAIN HEADER */
+
+.popupMainHeader h1{
+  /*float: left;*/
+  display: inline-block;
+}
+
+/*--------------------------------------------------*/
+
 /* POPUP - MAIN TEXT FIELD */
 
 .popupMainText{
@@ -63,8 +72,10 @@ button:focus {
 /* POPUP - UPPER CORNER RIBBON */
 
 .popupRibbon{
+  /*display: inline-block;*/
   width: 101px; /* original width: 70px; */
-  height: 70px; /* original height: 70px; */
+  height: 0; 
+  /* original height: 70px; Increase if header text is ending up behind the corner-banner */
   font-weight: 700;
 }
 .ribbon {
@@ -142,21 +153,21 @@ button:focus {
   font-family: Georgia, serif;
   text-decoration: none;
   vertical-align: middle;
-  }
+}
 .popupButton:hover {
   border-top-color: #3d3d3d;
   background: #3d3d3d;
   color: #fff;
-  }
+}
 .popupButton:active {
   border-top-color: #000;
   background: #000;
-  }
+}
   .popupButton span{
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
   font-size: 25px;
-  }
+}
 /*--------------------------------------------------*/
 
 
