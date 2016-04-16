@@ -1,18 +1,26 @@
-/* Popup box */
+body{
+  background-color: grey;
+}
+
+
+/* POPUP - MAIN BOX */
 .popupMain{
   position: fixed;
-  border: 2px solid #000;
   border-radius: 9px;
   height: 280px;
   width: 470px;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #fff;
   bottom: 50%;
   right: 10%;
+  text-align: center;
+  margin: 0 auto;
+  /*margin: auto;*/
   /*padding: 10px;*/
 }
 
 
-/* button to close popup */
+
+/* POPUP - CLOSE BUTTON */
 button:focus {
   outline: 0;
 }
@@ -34,12 +42,17 @@ button:focus {
 }
 
 
-/* Ribbon in the corner */
 
+/* POPUP - CORNER RIBBON */
+.popupRibbon{
+  /*display: inline-block;*/
+  width: 70px;
+  height: 70px;
+}
 .ribbon {
   position: absolute;
-  left: -7px; 
-  top: -7px;
+  left: -5px; 
+  top: -5px;
   z-index: 1;
   overflow: hidden;
   width: 75px; height: 75px;
@@ -80,3 +93,82 @@ button:focus {
   border-bottom: 3px solid transparent;
   border-top: 3px solid #8F5408;
 }
+
+
+
+/* POPUP - MAIN TEXT FIELD */
+.popupMainText{
+  /*border: 1px solid black;*/
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  text-align: center;
+  /*background-color: brown;*/
+}
+
+
+.buttonDiv{
+  position: absolute;
+  /*text-align: center;*/
+  height: 31px;
+  width: 100%;
+  bottom: 20px;
+}
+
+.buttonlink{
+  /*position: absolute;*/
+  display:inline-block;
+  border-style:solid;
+  border-color:#bbb #888 #666 #aaa;
+  border-width:3px 4px 4px 3px;
+  width:9em;
+  height:31px;
+  background:#ccc;
+  color:#333;
+  line-height:2;
+  text-align:center;
+  text-decoration:none;
+  font-weight:900;
+}
+.buttonlink:active{
+  border-color: #666 #aaa #bbb #888;
+  border-width:4px 3px 3px 4px;
+  color:#000;
+}
+
+
+
+
+/*.popupButton{
+  position: absolute;
+  background-color: green;
+  bottom: 25px;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}*/
+
+
+/*.mycenter {
+    position: relative;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%) } 
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
